@@ -23,9 +23,9 @@ app.post('/bfhl', (req, res) => {
         const { data, file_b64 } = req.body;
 
         // Define static user data
-        const user_id = "shanthi_reddy_27042003"; 
-        const email = "shanthireddy_@srmap.edu.in";
-        const roll_number = "AP21110011302";
+        const user_id = "abdul_rahim_14042004"; 
+        const email = "abdulrahim_shaik@srmap.edu.in";
+        const roll_number = "AP21110011308";
         const numbers = [];
         const alphabets = [];
         let high_alpha = '';
