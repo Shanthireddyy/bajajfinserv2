@@ -12,7 +12,7 @@ function App() {
   const handleJsonSubmit = async (data) => {
     try {
       console.log(data);
-      const res = await axios.post('http://localhost:3001/bfhl', data);
+      const res = await axios.post('https://bajajfinserv2.vercel.app/bfhl', data);
       console.log(res?.data);
       setResponse(res?.data);
     } catch (error) {
